@@ -45,9 +45,9 @@ dtype: int64
 
 ### 판매량 Top 10 카테고리
 
-![product1.png](images/product1.png)
+![product1.png](images/product_1.png)
 
-![product2.png](images/product2.png)
+![product2.png](images/product_2.png)
 
 
 #  지도 시각화 
