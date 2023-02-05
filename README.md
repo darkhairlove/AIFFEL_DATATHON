@@ -45,40 +45,40 @@ dtype: int64
 
 ### 판매량 Top 10 카테고리
 
-![product1.png](images\product1.png)
+![product1.png](images/product1.png)
 
-![product2.png](images\product2.png)
+![product2.png](images/product2.png)
 
 
 #  지도 시각화 
 지역별 평균 소비금액,  상품 배송일과 상품의 리뷰 평점 사이의 관계를 시각화하였습니다.
 - 지역별 총 소비 금액(수익)
-    ![](images\geo1.png)
+    ![geo1.png](images/geo1.png)
     
     지역별 총 구매 금액
     상파울루(SP)는 총 구매금액이 많지만 고객이 주문당 가격을 적게 지불합니다.
     
-    ![](images\geo2.png)
+    ![](images/geo2.png)
 
 - 지역별 1인당 평균 구매가격
     
     브라질 남부 및 남동부 지역의 고객들은 북부 및 북동부 지역의 다른 고객들보다 평균 구매가격이 더 낮다.
     
-    ![](images\geo3.png)
+    ![](images/geo3.png)
     
     지역별로 평균 가격대
     
-    ![](images\geo4.png)
+    ![](images/geo4.png)
 
 - 지역별 평균 배송비와 운송 비율
     
     지역별 평균 배송비
     
-    ![](images\geo5.png)
+    ![](images/geo5.png)
     
     지역별 총 배송비
     
-    ![스크린샷 2022-09-27 오후 12.21.56.png](images\geo6.png)
+    ![스크린샷 2022-09-27 오후 12.21.56.png](images/geo6.png)
     
     배송비를 주문비로 나누면 `운송 비율`을 찾을 수 있습니다. 
     이 비율은 주문품을 배달하기 위해 사람이 지불해야 했던 제품 가격의 백분율  
@@ -86,32 +86,32 @@ dtype: int64
     높은 운임 비율은 고객들이 구매를 완료하지 못하게 할 가능성이 매우 높습니다.
     물류 비용 때문에 인구 밀도가 높은 지역에서는 낮은 운임 비율이, 희박한 지역에서는 높은 운임 비율이 예상됩니다.
     
-    ![스크린샷 2022-09-27 오전 11.41.03.png](images\geo7.png)
+    ![스크린샷 2022-09-27 오전 11.41.03.png](images/geo7.png)
 
 
 - 지역별 평균 배송일
     
-    ![스크린샷 2022-09-27 오전 11.42.53.png](images\geo8.png)
+    ![스크린샷 2022-09-27 오전 11.42.53.png](images/geo8.png)
     
 - 지역별 평균 리뷰 스코어
     
-    ![스크린샷 2022-09-27 오전 11.45.18.png](images\geo9.png)
+    ![스크린샷 2022-09-27 오전 11.45.18.png](images/geo9.png)
 
 - 지역별 지연 비율   
 - 
-    ![스크린샷 2022-09-27 오전 11.44.25.png](images\geo10.png)
+    ![스크린샷 2022-09-27 오전 11.44.25.png](images/geo10.png)
 
 - 리우의 평균 배송일과 리뷰 스코어, 지연 비율
-    ![스크린샷 2022-09-27 오전 11.46.37.png](images\geo11.png)   
+    ![스크린샷 2022-09-27 오전 11.46.37.png](images/geo11.png)   
 
     
-    ![스크린샷 2022-09-27 오전 11.47.52.png](images\geo12.png)
+    ![스크린샷 2022-09-27 오전 11.47.52.png](images/geo12.png)
 
-    ![스크린샷 2022-09-27 오전 11.50.29.png](images\geo13.png)
+    ![스크린샷 2022-09-27 오전 11.50.29.png](images/geo13.png)
 
     지도 상에서 평균 배송일과 리뷰 평점이 관계가 있어보여서 상관관계 계수를 계산했습니다. 두 피처 사이에 상관관계가 상당히 있어 인과관계를 분석할 필요가 있어보입니다.
     
-    ![스크린샷 2022-09-27 오전 11.51.19.png](images\geo14.png)
+    ![스크린샷 2022-09-27 오전 11.51.19.png](images/geo14.png)
 
 - 총 정리
     
@@ -122,7 +122,7 @@ dtype: int64
     평균 배송 예측일과 배송일의 차이   
       
     
-    ![스크린샷 2022-09-27 오전 11.58.16.png](images\geo15.png)
+    ![스크린샷 2022-09-27 오전 11.58.16.png](images/geo15.png)
 
 ---
 
@@ -137,7 +137,7 @@ dtype: int64
     
     
 
-![Untitled](images\geo16.png)
+![Untitled](images/geo16.png)
 위의 도표를 통해 다음과 같은 결론을 내릴 수 있습니다.
 
 - 브라질에서의 전자상거래는 시간이 지남에 따라 정말로 증가하는 추세를 가지고 있다. 특정 월에 피크가 나타나는 계절성을 볼 수 있지만 일반적으로 고객이 이전보다 온라인으로 물건을 구매하는 경향이 더 높다는 것을 알 수 있다.
@@ -148,12 +148,12 @@ dtype: int64
 - 총 소비금액 기준으로 상위 몇 퍼센트의 소비자가 대부분의 소비를 했는지?
     - 일회성 소비자가 많은 현상과 상관있을 것 (충성소비자가 적음)
 
-![Untitled](images\consumer1.png)
+![Untitled](images/consumer1.png)
 
 - 총 판매금액 기준 상위 몇 퍼센트의 소비자가 대부분의 매출을 올렸는지?
     - 파레토 법칙을 거의 따르고 있음
 
-![Untitled](images\consumer2.png)
+![Untitled](images/consumer2.png)
 
 ## 고객 RFM 분석
 
@@ -164,14 +164,14 @@ dtype: int64
     - 2016년 11월, 12월은 판매 기록이 없다.
     - 1년 이내에 구매 이력이 있는 고객이 많다.
 
-![Untitled](images\consumer3.png)
+![Untitled](images/consumer3.png)
 
 ### **Frequency** : 각 고객이 구매한 횟수
 
 - 고객당 주문수(order_id)를 세어서 측정
 - 1회 구매한 고객이 약 97%
 
-![Untitled](images\consumer4.png)
+![Untitled](images/consumer4.png)
 
 ### Monetary : 고객별 총 구매금액
 
@@ -179,34 +179,34 @@ dtype: int64
     - 작은 금액에 몰려있음
     - 4만 헤알(R$), 11만 헤알(R$)을 소비한 아웃라이어가 존재.
 
-        ![스크린샷 2022-09-27 오후 12.09.58.png](images\consumer5.png)
+        ![스크린샷 2022-09-27 오후 12.09.58.png](images/consumer5.png)
 
 - 히스토그램
     - x축에 밑이 10인 log를 씌워서 히스토그램 확인
     - 평균가격대 (110~192 R$) 주변 가격이 많음
     - 각 주별로 평균 가격대
         
-![Untitled](images\consumer6.png)
+![Untitled](images/consumer6.png)
         
 
-![Untitled](images\consumer7.png)
+![Untitled](images/consumer7.png)
 
 - RFM score
     - ( Recency + Frequency + 2 * Monetary ) /  4 로 계산
 
-![Untitled](images\consumer8.png)
+![Untitled](images/consumer8.png)
 
 - RFM 점수 3D 시각화
     - 앞에서 그린 3개 그래프를
     - 대부분 한번 구매하고, 1000헤알 이하 금액대로 구매
 
-![Untitled](images\consumer9.png)
+![Untitled](images/consumer9.png)
 
 - 소비자 Class별 R점수와 M점수
     - Class는 RFM 점수를 기준으로 4분할
     - R 점수, M 점수는 Recency, Monetary를 100점으로 환산
 
-![Untitled](images\consumer10.png)
+![Untitled](images/consumer10.png)
 
 # 시간에 따른 판매 추세
 
@@ -217,18 +217,18 @@ dtype: int64
 - 2018년부터는 안정적으로 600건 이상 판매
 - 11월은 블랙프라이데이 영향으로 구매량이 대폭 증가
 
-![Untitled](images\consumer11.png)
+![Untitled](images/consumer11.png)
 
 - 헬스&뷰티
     - 꾸준히 증가하는 추세를 보입니다.
 
-![Untitled](images\consumer12.png)
+![Untitled](images/consumer12.png)
 
 ### 스포츠&레저
 
 - 6월에 매출이 떨어진 이유를 겨울이여서로 볼 수 있다.
 
-![Untitled](images\consumer13.png)
+![Untitled](images/consumer13.png)
 
 # 결론
 
